@@ -25,6 +25,7 @@ function readURL(input) {
   }
 }
 
+
 function removeUpload() {
   $('.file-upload-input').replaceWith($('.file-upload-input').clone());
   $('.file-upload-content').hide();
@@ -50,10 +51,15 @@ function start(){
   var canvas = document.getElementById('canvas');
   var context = canvas.getContext('2d');
   document.getElementById('snap').addEventListener('click', function(){
-  context.drawImage(video, 0, 0, 300, 250);
-  var canvasURL = canvas.toDataURL();
-  var img = document.getElementById("image");
-  img.style.display="block"
-  img.src = canvasURL;
+    context.drawImage(video, 0, 0, 300, 250);
+    var canvasURL = canvas.toDataURL('image/jpeg');
+    var img = document.getElementById("image");
+    img.style.display="block";
+    img.setAttribute('src', canvasURL);
+    this.href = canvasURL;
+
+    // var testImage = canvasURL;
+    var formData = new FormData();
+    formData.append("testImage", canvasURL);
   });
 }

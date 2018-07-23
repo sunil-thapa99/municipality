@@ -4,19 +4,17 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Nepal Municipality</title>
-		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="assets/css/styles.css">
+		<link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../assets/css/styles.css">
 	</head>
 	<body>
 		<div class="container">
 			<nav class="navbar">
-				<img src="assets/img/img.jpg" style="float: left;">
-				<img src="assets/img/nepal.gif" style="float: right;">
+				<img src="../assets/img/img.jpg" style="float: left;">
+				<img src="../assets/img/nepal.gif" style="float: right;">
 			</nav>
-			<?php 
-			?>
 			<div class="section">
-				<form class="form" method="POST" action="controller/displayController.php"  enctype="multipart/form-data">
+				<form class="form" method="POST" action="../controller/displayController"  enctype="multipart/form-data">
 					<!-- <fieldset>
 						<legend>Personal Infomation </legend>
 						<div class="form-row">
@@ -121,7 +119,7 @@
 							</div>
 							<div class="col-xs-12 col-sm-6 col-md-4">
 								<div class="form-group">
-									<label>Place of Issue for Passport</label>
+									<label>Place of Issue for Old Passport</label>
 									<input type="text" class="form-control input-md" placeholder="Place of Issue" name="passportIssuePlace">
 								</div>
 							</div>
@@ -243,11 +241,11 @@
 		                        </div>
 		                    </div>
 						</div>
-					</fieldset>	 -->
+					</fieldset> -->	
 					<div class="row">
 						<div class="file-upload col-lg-6 col-md-6 col-sm-6 col-xs-12">
 						  	<div class="image-upload-wrap">
-							    <input class="file-upload-input" type="file" onchange="readURL(this);" accept="image/*" name="imagee" />
+							    <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" name="imagee" />
 							    <div class="drag-text">
 							      <h3>Drag and drop a file or select add Image</h3>
 							    </div>
@@ -276,8 +274,7 @@
 						<div class="file-upload col-lg-6 col-md-6 col-sm-6 col-xs-12">
 						  	<div class="image-upload-wrap">
 							    <video class="video-upload-input" id="video" autoplay></video>
-
-							    <input class="file-upload-input" type="file" onchange="readURL(this);" accept="image/*" name="image"/>
+							    <input class="file-upload-input" type="file" onchange="readURL(this);" accept="image/*" name="image" value="file:///C:/Users/E7250/Downloads/a.jpg" />
 							    <div class="drag-text">
 							      <h3>please click on "start" Button for photo</h3>
 							    </div>
@@ -289,7 +286,6 @@
 					</div>
 					<canvas id="canvas" width="300px" height="250px" style="display: none;"></canvas>
 					<img id="image" class="center-block" width="300px" height="250px">
-					<input type="file" name="testImage" id="testImage" style="display: none;">
 
 					<!-- <canvas id="canvas" width="300px" height="250px" style="display: none;"></canvas>
 					<img src="" id="image" class="center-block" width="300px" height="250px">
@@ -299,8 +295,8 @@
 			</div>
 		</div>
 
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-		<script src="assets/js/main.js"></script>
+		<script src="../assets/js/jquery.min.js"></script>
+		<script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+		<script src="../assets/js/main.js"></script>
 	</body>
 </html>
