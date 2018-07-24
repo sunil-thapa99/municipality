@@ -1,0 +1,225 @@
+ body {
+	margin: 0;
+	padding: 0;
+ }
+ 
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 1011px;
+	 height: 638px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #Layer0 
+{ 
+	 left: 493px; 
+	 top: 171px; 
+	 position: absolute; 
+	 	 height: 64px;
+	 z-index:1;
+} 
+
+ #Layer0_0 
+{ 
+	 left: 0px; 
+	 top: -1px; 
+	 position: absolute; 
+	 
+	 height: 639px;
+	 z-index:2;
+} 
+
+ #Issuedbyborder 
+{ 
+	 left: 47px; 
+	 top: 503px; 
+	 position: absolute; 
+	 	 height: 84px;
+	 z-index:3;
+} 
+
+ #signatureborder 
+{ 
+	 left: 725px; 
+	 top: 503px; 
+	 position: absolute; 
+	 	 height: 84px;
+	 z-index:4;
+} 
+
+ #nepalgovernment 
+{ 
+	 left: 44px; 
+	 top: 15px; 
+	 position: absolute; 
+	  height: 85px;
+	 z-index:5;
+} 
+
+ #watermark 
+{ 
+	 left: 412px; 
+	 top: 206px; 
+	 position: absolute; 
+	 	 height: 188px;
+	 z-index:6;
+} 
+
+ #Flag 
+{ 
+	 left: 864px; 
+	 top: 10px; 
+	 position: absolute; 
+	  height: 109px;
+	 z-index:7;
+} 
+
+ #map 
+{ 
+	 left: 429px; 
+	 top: 518px; 
+	 position: absolute; 
+	 	 height: 91px;
+	 z-index:8;
+} 
+
+ #signature 
+{ 
+	 left: 103px; 
+	 top: 506px; 
+	 position: absolute; 
+	 	 height: 74px;
+	 z-index:9;
+} 
+
+ #signature_0 
+{ 
+	 left: 795px; 
+	 top: 519px; 
+	 position: absolute; 
+	  height: 53px;
+	 z-index:10;
+} 
+
+ #Picture 
+{ 
+	 left: 44px; 
+	 top: 207px; 
+	 position: absolute; 
+	 	 height: 193px;
+	 z-index:11;
+} 
+
+ #Smartidentitycard 
+{ 
+	 left: 349px; 
+	 top: 75px; 
+	 position: absolute; 
+	 	 height: 21px;
+	 z-index:12;
+} 
+
+ #CardNo010600045334 
+{ 
+	 left: 48px; 
+	 top: 128px; 
+	 position: absolute; 
+	 	 height: 19px;
+	 z-index:13;
+} 
+
+ #IssuedBy 
+{ 
+	 left: 111px; 
+	 top: 597px; 
+	 position: absolute; 
+	 	 height: 24px;
+	 z-index:15;
+} 
+
+ #SignatureofHolder 
+{ 
+	 left: 729px; 
+	 top: 597px; 
+	 position: absolute; 
+	 	 height: 24px;
+	 z-index:16;
+} 
+
+ #Governmentofnepal 
+{ 
+	 left: 242px; 
+	 top: 27px; 
+	 position: absolute; 
+	 	 height: 31px;
+	 z-index:18;
+} 
+
+ #NameRAMBAHADURSHARMA 
+{ 
+	 left: 385px; 
+	 top: 124px; 
+	 position: absolute; 
+	 	 height: 19px;
+	 z-index:19;
+} 
+
+ #DOB09061990 
+{ 
+	 left: 386px; 
+	 top: 205px; 
+	 position: absolute; 
+	 	 height: 19px;
+	 z-index:20;
+} 
+
+ #FHNameHariSharma 
+{ 
+	 left: 386px; 
+	 top: 247px; 
+	 position: absolute; 
+	 	 height: 19px;
+	 z-index:21;
+} 
+
+ #CitizenshipNo2803065 
+{ 
+	 left: 385px; 
+	 top: 286px; 
+	 position: absolute; 
+	 	 height: 24px;
+	 z-index:22;
+} 
+
+ #PassportNo2803065986 
+{ 
+	 left: 386px; 
+	 top: 329px; 
+	 position: absolute; 
+	 	 height: 24px;
+	 z-index:23;
+} 
+
+ #PhoneNo9812345678 
+{ 
+	 left: 386px; 
+	 top: 372px; 
+	 position: absolute; 
+	 	 height: 19px;
+	 z-index:24;
+} 
+
+ #AddressBaneshowr06 
+{ 
+	 left: 384px; 
+	 top: 165px; 
+	 position: absolute; 
+	 height: 83px;
+	 z-index:25;
+} 

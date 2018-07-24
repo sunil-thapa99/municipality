@@ -20,6 +20,6 @@
 		$obj = new Query($pdo, 'person');
 		$stmt = $obj->save($_POST);
 		$lastid = $pdo->lastInsertId();
-		header('location:../view/displayView.php?id='.$lastid.'');
+		header('location:../view/smartCard.php?id='.$lastid.'');
 	}
 ?>
