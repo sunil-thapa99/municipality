@@ -4,8 +4,6 @@ img{
 }
 
 #image{
-	width: 300px;
-	height: 280px;
 	margin-bottom: 20px;	
   display: none;
 	border-radius: 10px;
@@ -73,7 +71,7 @@ img{
   text-align: center;
 }
 
-.file-upload-input, .video-upload-input{
+.file-upload-input, #camera{
   position: absolute;
   margin: 0;
   padding: 0;
