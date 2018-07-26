@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 24, 2018 at 01:18 PM
+-- Generation Time: Jul 26, 2018 at 07:47 AM
 -- Server version: 10.1.26-MariaDB
 -- PHP Version: 7.1.9
 
@@ -39,7 +39,11 @@ CREATE TABLE `image` (
 
 INSERT INTO `image` (`id`, `image`) VALUES
 (8, 'assets/img/20180724071335.jpg'),
-(9, 'assets/img/20180724130326.jpg');
+(9, 'assets/img/20180724130326.jpg'),
+(10, 'assets/img/20180726072620.jpg'),
+(11, 'assets/img/20180726072722.jpg'),
+(12, 'assets/img/20180726072820.jpg'),
+(13, 'assets/img/20180726074210.jpg');
 
 -- --------------------------------------------------------
 
@@ -90,7 +94,9 @@ CREATE TABLE `person` (
 
 INSERT INTO `person` (`id`, `fname`, `mname`, `lname`, `birthPlace`, `nationality`, `dobAD`, `dobBS`, `gender`, `citizenship`, `citizenshipIssuePlace`, `citizenshipIssueDate`, `passportNum`, `passportIssueDate`, `passportIssuePlace`, `district`, `municipality`, `ward`, `townVillage`, `houseNumber`, `email`, `phNumber`, `landline`, `occupation`, `annualIncome`, `fatherName`, `fatherOccupation`, `fatherPhNumber`, `motherName`, `motherOccupation`, `motherPhNumber`, `grandFatherName`, `grandMotherName`, `image_id`) VALUES
 (2, 'qwerqwer', 'xbvxcvb', 'asfdxcv', 'Kathmandu', 'xcviobuoi', '2018-07-11', '2045-02-12', 'Male', 788945651, 'Kathmandu', '2045-02-12', '65132', '2018-07-11', 'qwerfd', 'Kathmandu', 'zxcvzhtry', '12', 'joijoijoi', '12', 'asdfasdf@gmail.com', 54131365, 789465, 'ijoixcjv', 46546152, 'zyxicuvyzxc', 'ermt,remtn,', 12121313, 'zoxcvpozixpc', 'potyipoiet', 987654321, 'vjvkovc', 'qwerqwer', 8),
-(3, 'Sunil', '', 'Thapa', 'Kathmandu', 'Nepal', '1999-03-17', '2055-12-03', 'Male', 24, 'Kathmandu', '2074-01-24', '', '0000-00-00', '', 'Kathmandu', 'Kathmandu', '12', 'Nayabazar', '0123', 'sunil43thapa@gmail.com', 2147483647, 0, 'Student', 999999, 'Lok Bahadur Thapa', 'Business Man', 2147483647, 'Tej Kumari Thapa', 'House Wife', 2147483647, 'Kamal Bahadur Thapa', 'Suntali Thapa', 9);
+(3, 'Sunil', '', 'Thapa', 'Kathmandu', 'Nepal', '1999-03-17', '2055-12-03', 'Male', 24, 'Kathmandu', '2074-01-24', '', '0000-00-00', '', 'Kathmandu', 'Kathmandu', '12', 'Nayabazar', '0123', 'sunil43thapa@gmail.com', 2147483647, 0, 'Student', 999999, 'Lok Bahadur Thapa', 'Business Man', 2147483647, 'Tej Kumari Thapa', 'House Wife', 2147483647, 'Kamal Bahadur Thapa', 'Suntali Thapa', 9),
+(4, 'tikaram ', '', 'joshi', 'Kathmandu', 'Nepal', '2017-09-13', '2049-07-21', 'Male', 45584152, 'Kathmandu', '2049-07-21', '', '0000-00-00', '', 'Kathmandu', 'kathmandu', '11', 'balkumari', '2', 'malikaincorporate@gmail.com', 2147483647, 0, 'business', 10000100, 'abc', 'abc', 25465444, 'abc', 'test', 5121525, 'abc', 'abc', 12),
+(5, 'Kushal ', '', 'Sharma', 'Lalitpur', 'Nepali', '1987-05-28', '2044-02-14', 'Male', 53084305, 'Lalitpur', '2063-12-30', '', '0000-00-00', '', 'Kathmandu', 'biratnagar', '19', 'rani', '411', 'kushalthedoctor@gmail.com', 2147483647, 0, 'business', 20000000, 'Ajay Sharma', 'Business', 2147483647, 'Bharti Devi Sharma', 'House Wife', 2147483647, 'Bhisma dev Sharma', 'Sushila Devi Sharma', 13);
 
 --
 -- Indexes for dumped tables
@@ -118,13 +124,13 @@ ALTER TABLE `person`
 -- AUTO_INCREMENT for table `image`
 --
 ALTER TABLE `image`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT for table `person`
 --
 ALTER TABLE `person`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- Constraints for dumped tables

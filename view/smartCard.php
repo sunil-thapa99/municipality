@@ -32,7 +32,7 @@
 			</div>
 			<div id="Smartidentitycard"><img src="../assets/img/smart-card/Smartidentitycard.png"></div>
 			<div id="CardNo010600045334">
-				<h3>Card Number: <?php echo $person['id'] ?></h3>
+				<p>Card Number: <?php echo $person['id'] ?></p>
 			</div>
 			<div id="IssuedBy"><img src="../assets/img/smart-card/IssuedBy.png"></div>
 			<div id="SignatureofHolder"><img src="../assets/img/smart-card/SignatureofHolder.png"></div>
@@ -40,30 +40,30 @@
 			<div id="NameRAMBAHADURSHARMA">
 				<?php 
 					if (isset($person['mname'])) {
-						echo '<h3>Name: '. $person['fname'] . ' ' .$person['mname'].' '.$person['lname'].'</h3>';
+						echo '<p>Name: '. $person['fname'] . ' ' .$person['mname'].' '.$person['lname'].'</p>';
 					}
 					else{
-						echo '<h3>Name: '. $person['fname'] . ' '.$person['lname'].'</h3>';
+						echo '<p>Name: '. $person['fname'] . ' '.$person['lname'].'</p>';
 					}
 				?>
 			</div>
 			<div id="DOB09061990">
-				<h3>D.O.B.: <?php echo $person['dobBS'] ?></h3>
+				<p>D.O.B.: <?php echo $person['dobBS'] ?></p>
 			</div>
 			<div id="FHNameHariSharma">
-				<h3>Father Name: <?php echo $person['fatherName'] ?></h3>
+				<p>Father Name: <?php echo $person['fatherName'] ?></p>
 			</div>
 			<div id="CitizenshipNo2803065">
-				<h3>Citizenship Number: <?php echo $person['citizenship'] ?></h3>
+				<p>Citizenship Number: <?php echo $person['citizenship'] ?></p>
 			</div>
 			<div id="PhoneNo9812345678">
-				<h3>Phone Number: <?php echo $person['phNumber'] ?></h3>
+				<p>Phone Number: <?php echo $person['phNumber'] ?></p>
 			</div>
 			<div id="PassportNo2803065986">
-				<h3>Email: <?php echo $person['email'] ?></h3>
+				<p>Email: <?php echo $person['email'] ?></p>
 			</div>
 			<div id="AddressBaneshowr06">
-				<h3>Address: <?php echo $person['townVillage'].', '.$person['municipality'].' - '.$person['ward'] .', '.$person['district']?></h3>
+				<p>Address: <?php echo $person['townVillage'].', <br> <span id="location"> '.$person['municipality'].' - '.$person['ward'] .', '.$person['district']?></span></p>
 			</div>
 		</div>
 		<button class="btn btn-success btn-lg center-block" onclick="printDiv('background')"> Print </button>

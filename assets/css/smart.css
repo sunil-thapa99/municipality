@@ -10,10 +10,11 @@
 	 position: relative; 
 	 margin-left: auto; 
 	 margin-right: auto; 
-	 width: 1011px;
-	 height: 638px; 
+	 width: 324px;
+	 height: 205px; 
 	 overflow: hidden;
 	 z-index:0;
+	 background-color: black;
 	} 
 
  #Layer0 
@@ -21,7 +22,7 @@
 	 left: 493px; 
 	 top: 171px; 
 	 position: absolute; 
-	 	 height: 64px;
+	 height: 64px;
 	 z-index:1;
 } 
 
@@ -35,191 +36,215 @@
 	 z-index:2;
 } 
 
- #Issuedbyborder 
+ #Issuedbyborder > img
 { 
-	 left: 47px; 
-	 top: 503px; 
+	 left: 8px; 
+	 top: 161px; 
 	 position: absolute; 
-	 	 height: 84px;
+	 width: 96px;
+	 height: 27px;
 	 z-index:3;
 } 
 
- #signatureborder 
+ #signatureborder > img
 { 
-	 left: 725px; 
-	 top: 503px; 
-	 position: absolute; 
-	 	 height: 84px;
+	 left: 226px; 
+	 top: 161px; 
+	 position: absolute;
+	 width: 96px; 
+	 height: 27px;
 	 z-index:4;
 } 
 
- #nepalgovernment 
+ #nepalgovernment > img
 { 
-	 left: 44px; 
-	 top: 15px; 
+	 left: 8px; 
+	 top: 5px; 
 	 position: absolute; 
-	  height: 85px;
+	 width: 29px;
+	 height: 29px;
 	 z-index:5;
 } 
 
- #watermark 
+ #watermark >img
 { 
-	 left: 412px; 
-	 top: 206px; 
+	 left: 137px; 
+	 top: 60px; 
 	 position: absolute; 
-	 	 height: 188px;
+	 width: 116px;
+	 height: 94px;
 	 z-index:6;
 } 
 
- #Flag 
+ #Flag > img
 { 
-	 left: 864px; 
-	 top: 10px; 
-	 position: absolute; 
-	  height: 109px;
+	 left: 293px; 
+	 top: 5px; 
+	 position: absolute;
+	 width: 29px; 
+	  height: 29px;
 	 z-index:7;
 } 
 
- #map 
+ #map > img 
 { 
-	 left: 429px; 
-	 top: 518px; 
-	 position: absolute; 
-	 	 height: 91px;
+	 left: 138px; 
+	 top: 161px; 
+	 position: absolute;
+	 width: 50px; 
+	 	 height: 24px;
 	 z-index:8;
 } 
 
- #signature 
+ #signature > img
 { 
-	 left: 103px; 
-	 top: 506px; 
-	 position: absolute; 
-	 	 height: 74px;
+	 left: 24px; 
+	 top: 165px; 
+	 position: absolute;
+	 width: 66px; 
+	 height: 20px;
 	 z-index:9;
 } 
 
- #signature_0 
+ #signature_0 > img
 { 
-	 left: 795px; 
-	 top: 519px; 
-	 position: absolute; 
-	  height: 53px;
-	 z-index:10;
+	 left: 245px; 
+	 top: 165px; 
+	 position: absolute;
+	 width: 66px; 
+	 height: 20px;
+	 z-index:5;
 } 
 
- #Picture 
+ #Picture > img
 { 
-	 left: 44px; 
-	 top: 207px; 
+	 left: 8px; 
+	 top: 61px; 
 	 position: absolute; 
-	 	 height: 193px;
+	 width: 80px;
+	 height: 80px;
 	 z-index:11;
 } 
 
- #Smartidentitycard 
+ #Smartidentitycard > img 
 { 
-	 left: 349px; 
-	 top: 75px; 
-	 position: absolute; 
-	 	 height: 21px;
+	 left: 78px; 
+	 top: 24px; 
+	 position: absolute;
+	 width: 177px; 
+	 height: 8px;
 	 z-index:12;
 } 
 
- #CardNo010600045334 
+ #CardNo010600045334 > p
 { 
-	 left: 48px; 
-	 top: 128px; 
+	 left: 8px; 
+	 top: 37px; 
 	 position: absolute; 
-	 	 height: 19px;
+	 font-size: 10px;
+	 font-weight: bold;
 	 z-index:13;
 } 
 
- #IssuedBy 
+ #IssuedBy > img
 { 
-	 left: 111px; 
-	 top: 597px; 
+	 left: 33px; 
+	 top: 189px; 
 	 position: absolute; 
-	 	 height: 24px;
+	 width: 55px;
+	 height: 13px;
 	 z-index:15;
 } 
 
- #SignatureofHolder 
+ #SignatureofHolder > img
 { 
-	 left: 729px; 
-	 top: 597px; 
+	 left: 237px; 
+	top: 189px; 
 	 position: absolute; 
-	 	 height: 24px;
-	 z-index:16;
+	 width: 79px;
+	 height: 13px;
+	 z-index: 15;
 } 
 
- #Governmentofnepal 
+ #Governmentofnepal > img
 { 
-	 left: 242px; 
-	 top: 27px; 
+	 left: 48px; 
+	 top: 9px; 
 	 position: absolute; 
-	 	 height: 31px;
+	 width: 236px;
+	height: 13px;
 	 z-index:18;
 } 
 
- #NameRAMBAHADURSHARMA 
+ #NameRAMBAHADURSHARMA > p
 { 
-	 left: 385px; 
-	 top: 124px; 
+	 left: 120px; 
+	 top: 37px; 
 	 position: absolute; 
-	 	 height: 19px;
+	 font-size: 10px;
+	 font-weight: bold;
 	 z-index:19;
 } 
 
- #DOB09061990 
+ #DOB09061990 > p
 { 
-	 left: 386px; 
-	 top: 205px; 
+	 left: 120px; 
+	 top: 81px; 
 	 position: absolute; 
-	 	 height: 19px;
+	 font-size: 10px;
+	 font-weight: bold;
 	 z-index:20;
 } 
 
- #FHNameHariSharma 
+ #FHNameHariSharma > p
 { 
-	 left: 386px; 
-	 top: 247px; 
+	 left: 120px; 
+	 top: 96px; 
 	 position: absolute; 
-	 	 height: 19px;
+	 font-size: 10px;
+	 font-weight: bold;
 	 z-index:21;
 } 
 
- #CitizenshipNo2803065 
+ #CitizenshipNo2803065 > p
 { 
-	 left: 385px; 
-	 top: 286px; 
+	 left: 120px; 
+	 top: 110px; 
 	 position: absolute; 
-	 	 height: 24px;
+	 font-size: 10px;
+	 font-weight: bold;
 	 z-index:22;
 } 
 
- #PassportNo2803065986 
+ #PassportNo2803065986 > p
 { 
-	 left: 386px; 
-	 top: 329px; 
+	 left: 120px; 
+	 top: 125px; 
 	 position: absolute; 
-	 	 height: 24px;
+	 font-size: 10px;
+	 font-weight: bold;
 	 z-index:23;
 } 
 
- #PhoneNo9812345678 
+ #PhoneNo9812345678 > p
 { 
-	 left: 386px; 
-	 top: 372px; 
+	 left: 120px; 
+	 top: 140px; 
 	 position: absolute; 
-	 	 height: 19px;
+	 font-size: 10px;
+	 font-weight: bold;
 	 z-index:24;
 } 
 
- #AddressBaneshowr06 
+ #AddressBaneshowr06 > p
 { 
-	 left: 384px; 
-	 top: 165px; 
+	 left: 120px; 
+	 top: 50px; 
 	 position: absolute; 
-	 height: 83px;
+	 font-size: 10px;
+	 font-weight: bold;
 	 z-index:25;
 } 
+#location{
+	padding-left: 25px;
+}
